@@ -24,3 +24,51 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@layer base {
+
+  .font-roboto {
+    font-family: var(--font-roboto);
+  }
+
+  .font-roboto-400 {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+  }
+
+  .font-roboto-700 {
+    font-family: var(--font-roboto);
+    font-weight: 700;
+  }
+
+  .font-roboto-condensed {
+    font-family: var(--font-roboto-condensed);
+  }
+
+  .font-roboto-condensed-400 {
+    font-family: var(--font-roboto-condensed);
+    font-weight: 400;
+  }
+
+  .font-roboto-condensed-700 {
+    font-family: var(--font-roboto-condensed);
+    font-weight: 700;
+  }
+
+  .font-pt-serif {
+    font-family: var(--font-pt-serif);
+  }
+
+  .font-pt-serif-400 {
+    font-family: var(--font-pt-serif);
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .font-pt-serif-400-italic {
+    font-family: var(--font-pt-serif);
+    font-weight: 400;
+    font-style: italic;
+  }
+}
