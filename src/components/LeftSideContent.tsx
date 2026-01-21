@@ -1,5 +1,5 @@
-import { ChevronRight } from "lucide-react";
 import Image from "next/image";
+import { IoMdArrowDropright } from "react-icons/io";
 
 const latestArticles = [
     {
@@ -87,8 +87,8 @@ export default function LeftSideContent() {
                     <ul className="space-y-4">
                         {opinionArticles.map((article, index) => (
                             <li key={index} className="group cursor-pointer">
-                                <a href="#" className="flex items-start gap-2 text-sm text-gray-900 hover:text-red-600 transition-colors">
-                                    <ChevronRight className="w-4 h-4 mt-0.5 shrink-0" />
+                                <a href="#" className="flex items-start gap-1 text-sm text-gray-900 hover:text-red-600 transition-colors">
+                                    <IoMdArrowDropright className="w-5 h-5 mt-0.5 shrink-0" />
                                     <span className="leading-snug">{article}</span>
                                 </a>
                             </li>
